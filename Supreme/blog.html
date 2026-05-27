@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Supreme Speciality Hospital</title>
+    <meta
+      name="description"
+      content="Read the latest healthcare insights, tips, and news from Supreme Speciality Hospital."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    
+    <style>
+      .blog-iframe-container {
+        width: 100%;
+        height: calc(100vh - 80px); /* Adjust for header height */
+        margin-top: 80px; /* Space for the fixed header */
+        background-color: #f8f9fa;
+        overflow: hidden; /* Crucial for hiding the iframe's header */
+      }
+      .blog-iframe-container iframe {
+        width: 100%;
+        height: calc(100% + 140px); /* Add extra height to compensate for shift */
+        border: none;
+        display: block;
+        margin-top: -140px; /* Shift iframe up to hide its native navigation header */
+      }
+    </style>
+  </head>
+  <body class="blog-page">
+    <div id="header-placeholder"></div>
+
+    <main>
+      <div class="blog-iframe-container">
+        <!-- Embeds the external WordPress blog directly within this page -->
+        <iframe src="https://supremehospitals.in/blogs/" title="Supreme Hospitals Blog"></iframe>
+      </div>
+    </main>
+
+    <!-- Scripts to load the shared header/footer -->
+    <script src="script.js"></script>
+    <script src="layout.js"></script>
+  </body>
+</html>

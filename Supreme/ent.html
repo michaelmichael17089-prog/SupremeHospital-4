@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best ENT Specialists & Surgeons in Padur | Supreme Hospitals</title>
+    <meta
+      name="description"
+      content="Supreme Hospitals in Padur offers expert ENT care – advanced treatment for ear, nose, and throat conditions by highly qualified otolaryngologists."
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body class="department-page">
+    <div id="header-placeholder"></div>
+
+    <!-- Floating CTA -->
+    <button
+      class="floating-cta ripple"
+      onclick="window.location.href = 'book-an-appointment.html'"
+    >
+      <span class="pulse-ring"></span>
+      <i class="fas fa-calendar-plus"></i>
+      <span>Book an Appointment</span>
+    </button>
+
+    <!-- Appointment Modal Form -->
+    <div class="modal-overlay" id="appointment-modal">
+      <div class="modal-content">
+        <button class="close-modal" onclick="closeModal()">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Request an Appointment</h3>
+          <p>
+            Fill out the form below and our team will get back to you shortly.
+          </p>
+        </div>
+        <form class="appointment-form" onsubmit="event.preventDefault()">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="ent" selected>ENT</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="dental">Dental</option>
+              <option value="dermatology">Dermatology</option>
+              <option value="diabetology">Diabetology</option>
+              <option value="psychiatry">Psychiatry</option>
+              <option value="general-surgery">General Surgery</option>
+              <option value="gastroenterology">Medical Gastroenterology</option>
+              <option value="nephrology">Nephrology</option>
+              <option value="obstetrics-gynaecology">
+                Obstetrics & Gynaecology
+              </option>
+              <option value="orthopedics">Orthopedics</option>
+              <option value="pulmonology">Pulmonology</option>
+              <option value="ophthalmology">Ophthalmology</option>
+              <option value="pediatrics">Pediatrics</option>
+              <option value="pain-palliative-care">
+                Pain & Palliative Care
+              </option>
+              <option value="general-medicine">General Medicine</option>
+              <option value="urology">Urology</option>
+              <option value="radiology">Radiology</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="date" required />
+          </div>
+          <div class="form-group full-width">
+            <textarea placeholder="Message / Symptoms" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width btn-glow">
+            Confirm Request
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <!-- SECTION 1: PREMIUM HERO BANNER -->
+
+      <section
+        class="hero-premium"
+        style="
+          background-image: url('https://supremehospitals.in/wp-content/uploads/2023/10/ent-banner.jpg');
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="fade-up">
+            <div class="breadcrumb">
+              <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+              <span>Department</span> <i class="fas fa-chevron-right"></i>
+              <span class="current">ENT</span>
+            </div>
+            <h5 class="subtitle text-orange mb-3">Supreme Excellence</h5>
+            <h1>Ear, Nose & Throat (ENT)</h1>
+            <p class="hero-subtitle">
+              Advanced clinical care for otorhinolaryngology conditions. Expert
+              diagnosis and specialized surgical treatments for a better quality
+              of life.
+            </p>
+            <div class="hero-btns mt-5 stagger-1">
+              <a
+                href="book-an-appointment.html"
+                class="btn btn-primary btn-lg btn-glow px-5"
+                >Book Appointment</a
+              >
+              <a
+                href="contact-us.html"
+                class="btn btn-outline-white btn-lg px-5 ml-md-3"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: OVERVIEW -->
+      <section class="partner-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center flex-wrap">
+            <div class="col-md-6 fade-up">
+              <h5 class="subtitle text-accent">Comprehensive ENT Care</h5>
+              <h2>Overview</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                Experiencing earaches, throat discomfort, or sinus problems?
+                Don’t suffer in silence. Supreme Hospital ENT is your one-stop
+                solution for all your ear, nose, and throat (ENT) needs.
+              </p>
+              <p class="text-muted leading-relaxed mb-5">
+                Our highly qualified ENT specialists (also known as
+                otolaryngologists) possess extensive training and experience in
+                diagnosing and treating a wide range of ENT conditions. Equipped
+                with the latest technology and a patient-centered approach, we
+                strive to provide exceptional care, ensuring accurate diagnoses
+                and effective treatment plans tailored to your specific needs.
+              </p>
+              <div class="feature-tags">
+                <span class="tag"
+                  ><i class="fas fa-ear-listen mr-2"></i> Hearing & Balance
+                  Care</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-nose-scroll mr-2"></i> Sinus & Allergy
+                  Management</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-comment-dots mr-2"></i> Voice & Swallowing
+                  Experts</span
+                >
+              </div>
+            </div>
+            <div class="col-md-6 fade-up stagger-1 mt-sm-5 text-center">
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-ear-deaf fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">
+                  Advanced ENT Assessment Visual Placeholder
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: CORE FOCUS AREAS (AUTO SCROLL) -->
+      <section class="treatments-scroll-section section-padding bg-soft-blue">
+        <div class="container-fluid p-0">
+          <div class="section-title text-center mb-5 fade-up">
+            <h5 class="subtitle text-accent">Clinical Domains</h5>
+            <h2>Ear, Nose, Throat & Beyond</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="scroller-container mt-5">
+            <div class="scroller-inner">
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Ear Disorders</h3>
+                  <p class="text-sm text-muted">
+                    Treating hearing loss, infections, tinnitus, balance
+                    disorders, and ear trauma with precision.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Nose & Sinus</h3>
+                  <p class="text-sm text-muted">
+                    Management of chronic sinusitis, polyps, deviated septum,
+                    and allergic rhinitis conditions.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Throat Care</h3>
+                  <p class="text-sm text-muted">
+                    Solutions for sore throat, tonsillitis, voice disorders, and
+                    swallowing problems (dysphagia).
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Head & Neck</h3>
+                  <p class="text-sm text-muted">
+                    Managing head and neck cancers, thyroid disorders, salivary
+                    gland issues, and neck masses.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Surgical ENT</h3>
+                  <p class="text-sm text-muted">
+                    Expert tonsillectomies, adenoidectomies, septoplasties, and
+                    complex cochlear implantations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: DIAGNOSTIC & MANAGEMENT (UNIQUE SOURCE SECTION) -->
+      <section class="diagnostic-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center">
+            <div class="col-md-6 order-md-2 fade-up">
+              <h5 class="subtitle text-accent">Precision Assessment</h5>
+              <h2>Advanced Diagnostics & Surgery</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                Ear and nose conditions often include infections, allergies, and
+                structural issues like sinusitis, tinnitus, and deviated septum.
+                Proper diagnosis by an ENT specialist is essential for effective
+                management.
+              </p>
+              <p class="text-muted leading-relaxed mb-4">
+                Depending on the clinical diagnosis, treatment options may range
+                from medical management (prescribing medication or recommended
+                lifestyle changes) to advanced surgical procedures.
+              </p>
+              <div class="highlight-box bg-soft p-4 border-left-accent">
+                <p class="font-600 mb-0 italic">
+                  "Whether you require routine check-ups or specialized head and
+                  neck cancer surgery, our ENT team is helping you regain
+                  overall well-being."
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 order-md-1 fade-up stagger-1 mt-sm-5 text-center"
+            >
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-microscope fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">ENT Clinical Diagnostic Visuals</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: WHY CHOOSE US (CENTERED + UNIQUE ANIMS) -->
+      <section
+        class="why-choose-section section-padding bg-dark-blue text-white centered-section"
+        style="background: #061225"
+      >
+        <div class="container">
+          <div class="fade-up">
+            <h5 class="subtitle text-accent">ENT Excellence</h5>
+            <h2 class="light-title">Why Choose Supreme ENT?</h2>
+            <div class="title-line mb-5"></div>
+          </div>
+
+          <div class="benefit-grid-premium">
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="fade-up-elite"
+            >
+              <i class="fas fa-user-doctor"></i>
+              <h4>Specialized Otolaryngologists</h4>
+              <p class="opacity-75">
+                Highly trained experts diagnosing and treating common and
+                complex head and neck conditions.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="slide-right-elite"
+            >
+              <i class="fas fa-stethoscope"></i>
+              <h4>Advanced Technology</h4>
+              <p class="opacity-75">
+                Utilizing the latest clinical equipment for precise assessment
+                of ears, nose, and throat issues.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="scale-in-elite"
+            >
+              <i class="fas fa-hand-holding-heart"></i>
+              <h4>Sturdy Surgical Expertise</h4>
+              <p class="opacity-75">
+                Performing complex procedures including septoplasty, cochlear
+                implants, and tumor removals.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="rotate-in-elite"
+            >
+              <i class="fas fa-wind"></i>
+              <h4>Wait-Free Solutions</h4>
+              <p class="opacity-75">
+                Personalized care plans helping you breathe easy and maintain
+                long-term head and neck health.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CONSULTANTS -->
+      <section class="consultants-section section-padding bg-soft">
+        <div class="container">
+          <div class="section-title text-center fade-up font-500">
+            <h5 class="subtitle text-accent">Our ENT Experts</h5>
+            <h2>Medical Specialists</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="consultant-grid mt-5">
+            <div class="consultant-card fade-up">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. Priya. K</h3>
+              <p class="text-accent font-500">MBBS, ENT Specialist</p>
+              <p class="text-sm text-muted mb-4">
+                Dedicated to precise diagnosis and medical management of ENT
+                disorders.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+            <div class="consultant-card fade-up stagger-1">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. Puja Ghosh</h3>
+              <p class="text-accent font-500">ENT Consultant</p>
+              <p class="text-sm text-muted mb-4">
+                Expert in surgical intervention and comprehensive throat and ear
+                care.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: FAQ -->
+      <section class="dept-faq-section section-padding bg-white">
+        <div class="container">
+          <div class="section-title text-center fade-up font-500">
+            <h5 class="subtitle text-accent">ENT Guidance</h5>
+            <h2>Frequently Asked Questions</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+          <div class="faq-accordion mt-5 max-w-800 mx-auto">
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                When should I consider seeing an ENT specialist?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  You should consider seeing an ENT specialist if you experience
+                  persistent earaches, chronic sinusitis, hearing loss, chronic
+                  hoarseness, or throat discomfort that doesn't improve.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What can I expect during my first ENT appointment?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  During your first visit, the specialist will evaluate your
+                  head and neck health, review your symptoms, and may perform a
+                  physical exam using specialized tools for ears, nose, and
+                  throat.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                Can an ENT help with sleep apnea and snoring issues?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Yes, ENT specialists can evaluate structural issues in the
+                  nose and throat that contribute to snoring or obstructive
+                  sleep apnea and provide medical or surgical solutions.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What steps can I take to maintain overall ear, nose, and throat
+                health? <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Proper hygiene, avoiding excessive noise exposure, staying
+                  hydrated, and managing allergies effectively are key steps to
+                  maintaining good ENT health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="layout.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

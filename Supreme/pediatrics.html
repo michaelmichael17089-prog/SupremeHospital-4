@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Best Pediatric Hospital in Padur & Thiruporur | Supreme Hospitals
+    </title>
+    <meta
+      name="description"
+      content="Supreme Hospitals in Padur offers expert pediatric care – trusted child specialists for newborns to teens, focused on growth, health, and development."
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body class="department-page">
+    <div id="header-placeholder"></div>
+
+    <!-- Floating CTA -->
+    <button
+      class="floating-cta ripple"
+      onclick="window.location.href = 'book-an-appointment.html'"
+    >
+      <span class="pulse-ring"></span>
+      <i class="fas fa-calendar-plus"></i>
+      <span>Book an Appointment</span>
+    </button>
+
+    <!-- Appointment Modal Form -->
+    <div class="modal-overlay" id="appointment-modal">
+      <div class="modal-content">
+        <button class="close-modal" onclick="closeModal()">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Request an Appointment</h3>
+          <p>
+            Fill out the form below and our team will get back to you shortly.
+          </p>
+        </div>
+        <form class="appointment-form" onsubmit="event.preventDefault()">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="pediatrics" selected>Pediatrics</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="dental">Dental</option>
+              <option value="dermatology">Dermatology</option>
+              <option value="diabetology">Diabetology</option>
+              <option value="psychiatry">Psychiatry</option>
+              <option value="ent">ENT</option>
+              <option value="general-surgery">General Surgery</option>
+              <option value="gastroenterology">Medical Gastroenterology</option>
+              <option value="nephrology">Nephrology</option>
+              <option value="obstetrics-gynaecology">
+                Obstetrics & Gynaecology
+              </option>
+              <option value="orthopedics">Orthopedics</option>
+              <option value="pulmonology">Pulmonology</option>
+              <option value="ophthalmology">Ophthalmology</option>
+              <option value="pain-palliative-care">
+                Pain & Palliative Care
+              </option>
+              <option value="general-medicine">General Medicine</option>
+              <option value="urology">Urology</option>
+              <option value="radiology">Radiology</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="date" required />
+          </div>
+          <div class="form-group full-width">
+            <textarea placeholder="Message / Symptoms" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width btn-glow">
+            Confirm Request
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <!-- SECTION 1: PREMIUM HERO BANNER -->
+
+      <section
+        class="hero-premium"
+        style="
+          background-image: url('https://supremehospitals.in/wp-content/uploads/2023/10/pediatrics-banner.jpg');
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="fade-up">
+            <div class="breadcrumb">
+              <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+              <span>Department</span> <i class="fas fa-chevron-right"></i>
+              <span class="current">Pediatrics</span>
+            </div>
+            <h5 class="subtitle text-orange mb-3">Supreme Excellence</h5>
+            <h1>Department of Pediatrics</h1>
+            <p class="hero-subtitle">
+              Compassionate medical care and preventive health services for
+              children at every stage of development.
+            </p>
+            <div class="hero-btns mt-5 stagger-1">
+              <a
+                href="book-an-appointment.html"
+                class="btn btn-primary btn-lg btn-glow px-5"
+                >Book Appointment</a
+              >
+              <a
+                href="contact-us.html"
+                class="btn btn-outline-white btn-lg px-5 ml-md-3"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: OVERVIEW -->
+      <section class="partner-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center flex-wrap">
+            <div class="col-md-6 fade-up">
+              <h5 class="subtitle text-accent">Nurturing Child Health</h5>
+              <h2>Overview</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                At Supreme hospital, we provide medical care as well as
+                preventive health services for children. Our pediatricians
+                manages physical, mental, and emotional well-being of the
+                children under their care at every stage of development, in both
+                sickness and health.
+              </p>
+              <p class="text-muted leading-relaxed mb-5">
+                Our pediatric care is also concerned about immediate management
+                of the ill child but also long term effects on quality of life,
+                disability and survival.
+              </p>
+              <div class="feature-tags">
+                <span class="tag"
+                  ><i class="fas fa-check-circle mr-2"></i> Comprehensive Growth
+                  Monitoring</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-check-circle mr-2"></i> Emotional
+                  Well-being</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-check-circle mr-2"></i> Neonatal
+                  Support</span
+                >
+              </div>
+            </div>
+            <div class="col-md-6 fade-up stagger-1 mt-sm-5 text-center">
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-child-reaching fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">
+                  Child Healthcare Visual Placeholder
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: CONDITIONS TREATED (AUTO SCROLL) -->
+      <section class="treatments-scroll-section section-padding bg-soft-blue">
+        <div class="container-fluid p-0">
+          <div class="section-title text-center mb-5 fade-up">
+            <h5 class="subtitle text-accent">Comprehensive Management</h5>
+            <h2>Treating Several Conditions Among Children</h2>
+            <div class="title-line mx-auto"></div>
+            <p class="max-w-800 mx-auto mt-4 text-muted">
+              Our specialists are involved with the prevention, early detection,
+              and management of various clinical problems.
+            </p>
+          </div>
+
+          <div class="scroller-container mt-5">
+            <div class="scroller-inner">
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Infections</h3>
+                  <p class="text-sm text-muted">
+                    Rapid diagnosis and clinical management of pediatric viral
+                    and bacterial infections.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Injuries</h3>
+                  <p class="text-sm text-muted">
+                    Expert care for acute childhood injuries and effective
+                    recovery management.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Genetic Conditions</h3>
+                  <p class="text-sm text-muted">
+                    Long-term clinical support and screening for genetic and
+                    congenital disorders.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Organ Dysfunction</h3>
+                  <p class="text-sm text-muted">
+                    Specialized care for childhood organ diseases and functional
+                    dysfunctions.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Pediatric Cancers</h3>
+                  <p class="text-sm text-muted">
+                    Compassionate and highly advanced clinical management of
+                    pediatric oncology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: PEDIATRIC VS ADULT (UNIQUE SOURCE SECTION) -->
+      <section class="special-info-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center">
+            <div class="col-md-6 fade-up">
+              <h5 class="subtitle text-accent">Specialized Approach</h5>
+              <h2>How Does Paediatrics Differ?</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                As a leading Pediatric Hospital, our treatment for children is
+                different from adult medicine in more ways than one. The smaller
+                body of an infant or neonate or a child is substantially
+                different physiologically from that of an adult.
+              </p>
+              <p class="text-muted leading-relaxed mb-4">
+                Treating children is not like treating a miniature adult.
+                Congenital defects, genetic variance, and developmental issues
+                are of greater concern to pediatricians than physicians treating
+                adults.
+              </p>
+              <p class="text-muted leading-relaxed">
+                In addition, the issues of guardianship, privacy, legal
+                responsibility and informed consent are carefully considered in
+                every pediatric procedure.
+              </p>
+            </div>
+            <div class="col-md-6 fade-up stagger-1 mt-sm-5 text-center">
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-baby fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">
+                  Pediatric Medical Principles Visual
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: WHY CHOOSE US (CENTERED + UNIQUE ANIMS) -->
+      <section
+        class="why-choose-section section-padding bg-dark-blue text-white centered-section"
+        style="background: #061225"
+      >
+        <div class="container">
+          <div class="fade-up">
+            <h5 class="subtitle text-accent">Expert Child Care</h5>
+            <h2 class="light-title">Why Choose Supreme Pediatrics?</h2>
+            <div class="title-line mb-5"></div>
+          </div>
+
+          <div class="benefit-grid-premium">
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="fade-up-elite"
+            >
+              <i class="fas fa-user-doctor"></i>
+              <h4>Expert Specialists</h4>
+              <p class="opacity-75">
+                Board-certified pediatricians providing dedicated care for
+                physical and mental well-being.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="slide-right-elite"
+            >
+              <i class="fas fa-shield-heart"></i>
+              <h4>Holistic Wellness</h4>
+              <p class="opacity-75">
+                Focusing on long-term effects on quality of life, disability
+                prevention, and survival.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="scale-in-elite"
+            >
+              <i class="fas fa-stethoscope"></i>
+              <h4>Early Detection</h4>
+              <p class="opacity-75">
+                Expertise in prevention and early detection of congenital and
+                genetic disorders.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="rotate-in-elite"
+            >
+              <i class="fas fa-users-viewfinder"></i>
+              <h4>Child-Safe OT</h4>
+              <p class="opacity-75">
+                Physiologically optimized environments and procedures
+                specifically for small bodies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CONSULTANTS -->
+      <section class="consultants-section section-padding bg-soft">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h5 class="subtitle text-accent">Expert Guidance</h5>
+            <h2>Our Experts</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="consultant-grid mt-5">
+            <div class="consultant-card fade-up">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. Archana Kulasekaran</h3>
+              <p class="text-accent font-500">MBBS, Pediatric Specialist</p>
+              <p class="text-sm text-muted mb-4">
+                Dedicated to nurturing child health and expert developmental
+                care.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+            <div class="consultant-card fade-up stagger-1">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. Rajkumar</h3>
+              <p class="text-accent font-500">Pediatric Expert</p>
+              <p class="text-sm text-muted mb-4">
+                Focused on clinical management and long-term child wellness.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: FAQ -->
+      <section class="dept-faq-section section-padding bg-white">
+        <div class="container">
+          <div class="section-title text-center fade-up font-500">
+            <h5 class="subtitle text-accent">Parental Guidance</h5>
+            <h2>Frequently Asked Questions</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+          <div class="faq-accordion mt-5 max-w-800 mx-auto">
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                How can I tell if my child is growing and developing normally?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Regular check-ups with our pediatricians allow us to monitor
+                  milestones and physical development against standardized
+                  growth charts for your child's age group.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What should I do if my child is not meeting developmental
+                milestones? <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  You should schedule a consultation with our child specialist
+                  for a developmental evaluation to identify potential issues
+                  early and initiate appropriate management.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                When should my child start dental check-ups?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Early dental health is vital. It is typically recommended to
+                  visit our dental experts soon after the first tooth appears or
+                  by the first birthday.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                How can I manage my child's picky eating habits?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Our pediatricians can provide nutrition guidance tailored to
+                  your child's stage, helping manage behavioral eating habits
+                  while ensuring nutritional requirements are met.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="layout.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

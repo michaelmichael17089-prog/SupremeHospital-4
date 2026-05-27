@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Health Check-Ups | Supreme Speciality Hospital</title>
+    <meta
+      name="description"
+      content="Prioritize your health with Supreme Speciality Hospital's premium health check-up packages. Advanced diagnostics for a healthier tomorrow."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- Shared Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body class="hc-page">
+    <div id="header-placeholder"></div>
+
+    <main>
+      <!-- SECTION 1: PREMIUM HERO (Screenshot Style) -->
+      <section
+        class="hero-premium"
+        style="
+          background-image: url('https://supremehospitals.in/wp-content/uploads/2023/11/Supreme-Health-Check-up.jpg');
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="fade-up">
+            <div class="breadcrumb">
+              <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+              <span>Health Check Ups</span>
+            </div>
+            <h5 class="subtitle text-orange mb-3">
+              Pioneering Preventive Care
+            </h5>
+            <h1>Comprehensive <br />Health Check Ups</h1>
+            <p class="hero-subtitle">
+              Experience the new standard in healthcare with precision-led
+              diagnostics and expert clinical evaluations tailored for your
+              lifestyle.
+            </p>
+            <div class="hero-btns mt-5 stagger-1">
+              <a
+                href="book-an-appointment.html"
+                class="btn btn-primary btn-lg btn-glow px-5"
+                >Book Now</a
+              >
+              <a href="#packages" class="btn btn-outline-white btn-lg px-5"
+                >View Packages</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: DIAGNOSTICS & FORM -->
+      <section id="form" class="section-padding bg-soft-blue">
+        <div class="container">
+          <div class="row align-center">
+            <div class="col-lg-7 fade-up">
+              <div class="section-title">
+                <span class="subtitle text-primary">Advanced Screening</span>
+                <h2 class="display-5 fw-bold">Diagnostic Facilities</h2>
+                <div class="title-line"></div>
+              </div>
+              <p class="mt-4 text-muted leading-relaxed fs-5">
+                Supreme Speciality Hospital stands as a prominent healthcare
+                facility with world-class diagnostic infrastructure. Our
+                computerized laboratories and high-precision imaging ensure
+                accurate results when they matter most.
+              </p>
+
+              <div class="facility-list-premium mt-5 grid-2">
+                <div class="facility-item fade-up">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-heartbeat"></i>
+                  </div>
+                  <span>Emergency & Trauma Care 24/7</span>
+                </div>
+                <div class="facility-item fade-up stagger-1">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-microscope"></i>
+                  </div>
+                  <span>Automated Computerized Lab</span>
+                </div>
+                <div class="facility-item fade-up stagger-2">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-x-ray"></i>
+                  </div>
+                  <span>Digital Imaging & X-Ray</span>
+                </div>
+                <div class="facility-item fade-up stagger-3">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-wave-square"></i>
+                  </div>
+                  <span>Echocardiogram & Doppler</span>
+                </div>
+                <div class="facility-item fade-up">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-eye"></i>
+                  </div>
+                  <span>Vision & Hearing Testing</span>
+                </div>
+                <div class="facility-item fade-up stagger-1">
+                  <div class="icon-circle shadow-sm">
+                    <i class="fas fa-bed-pulse"></i>
+                  </div>
+                  <span>Physiotherapy & Rehab</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 fade-up stagger-2 mt-lg-0 mt-5">
+              <div class="enquiry-card-premium glass-card box-shadow-lg p-5">
+                <h3 class="fw-bold mb-4">Check-Up Inquiry</h3>
+                <p class="text-muted mb-4">
+                  Request a call back from our health advisors.
+                </p>
+                <form id="hc-lead-form">
+                  <div class="floating-input-group mb-4">
+                    <input
+                      type="text"
+                      id="name"
+                      required
+                      placeholder=" "
+                      class="form-control-premium"
+                    />
+                    <label for="name">Full Name</label>
+                  </div>
+                  <div class="floating-input-group mb-4">
+                    <input
+                      type="tel"
+                      id="phone"
+                      required
+                      placeholder=" "
+                      class="form-control-premium"
+                    />
+                    <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="floating-input-group mb-4">
+                    <select
+                      id="package"
+                      required
+                      class="form-control-premium pt-3"
+                    >
+                      <option value="" disabled selected>
+                        Select a package
+                      </option>
+                      <option value="basic">Basic Health Package</option>
+                      <option value="women">Well Women Package</option>
+                      <option value="premium">Premium Health Package</option>
+                      <option value="diabetic">Diabetic Care Package</option>
+                    </select>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-primary full-width py-4 fw-bold text-uppercase letter-spacing-1"
+                  >
+                    Submit Request <i class="fas fa-paper-plane ml-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: PACKAGE GRID -->
+      <section id="packages" class="section-padding">
+        <div class="container text-center">
+          <div class="section-title fade-up mb-5">
+            <h5 class="subtitle text-accent">Precision Wellness</h5>
+            <h2 class="display-5 fw-bold">Our Health Packages</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="package-card-grid mt-5">
+            <!-- Basic Package -->
+            <div class="package-card fade-up">
+              <div class="package-header">
+                <i class="fas fa-stethoscope fa-2x mb-3 text-primary"></i>
+                <h3>Basic Health</h3>
+                <div class="package-price">Enquire Now</div>
+              </div>
+              <div class="package-body p-4">
+                <ul class="package-list text-left">
+                  <li>
+                    <i class="fas fa-check-circle"></i> CBC & Urine Analysis
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Blood Sugar (Fasting)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Lipid Profile
+                    (Cholesterol)
+                  </li>
+                  <li><i class="fas fa-check-circle"></i> Chest X-Ray</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> ECG & Physical Exam
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Doctor Consultation
+                  </li>
+                </ul>
+                <a
+                  href="book-an-appointment.html"
+                  class="btn btn-primary btn-sm full-width mt-4"
+                  >Book This</a
+                >
+              </div>
+            </div>
+
+            <!-- Women's Package -->
+            <div class="package-card fade-up stagger-1 highlighted">
+              <div class="package-header women">
+                <i class="fas fa-venus fa-2x mb-3 text-pink"></i>
+                <h3>Well Women</h3>
+                <div class="package-price">Enquire Now</div>
+              </div>
+              <div class="package-body p-4">
+                <ul class="package-list text-left">
+                  <li><i class="fas fa-check-circle"></i> CBC & Blood Sugar</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Thyroid Profile (TSH)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Pap Smear / USG Pelvis
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Breast Examination
+                  </li>
+                  <li><i class="fas fa-check-circle"></i> ECG & Vitals</li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Gynaecology Session
+                  </li>
+                </ul>
+                <a
+                  href="book-an-appointment.html"
+                  class="btn btn-primary btn-sm full-width mt-4"
+                  >Book This</a
+                >
+              </div>
+            </div>
+
+            <!-- Premium Package -->
+            <div class="package-card fade-up stagger-2">
+              <div class="package-header premium">
+                <i class="fas fa-crown fa-2x mb-3 text-orange"></i>
+                <h3>Premium Health</h3>
+                <div class="package-price">Enquire Now</div>
+              </div>
+              <div class="package-body p-4">
+                <ul class="package-list text-left">
+                  <li>
+                    <i class="fas fa-check-circle"></i> Full Body Lab Panel
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> USG Abdomen & Pelvis
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> ECHO & Stress Test (TMT)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Renal & Liver Function
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Dental & Eye Screening
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Multispeciality Review
+                  </li>
+                </ul>
+                <a
+                  href="book-an-appointment.html"
+                  class="btn btn-primary btn-sm full-width mt-4"
+                  >Book This</a
+                >
+              </div>
+            </div>
+
+            <!-- Diabetic Package -->
+            <div class="package-card fade-up stagger-3">
+              <div class="package-header diabetic">
+                <i class="fas fa-droplet fa-2x mb-3 text-red"></i>
+                <h3>Diabetic Care</h3>
+                <div class="package-price">Enquire Now</div>
+              </div>
+              <div class="package-body p-4">
+                <ul class="package-list text-left">
+                  <li>
+                    <i class="fas fa-check-circle"></i> FBS & PPBS Analysis
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> HbA1c (3 Month Avg)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Kidney Function (KFT)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Fundus Eye Checkup
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Diabetic Foot Care
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Diabetologist Review
+                  </li>
+                </ul>
+                <a
+                  href="book-an-appointment.html"
+                  class="btn btn-primary btn-sm full-width mt-4"
+                  >Book This</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: SERVICE ICON SECTION -->
+      <section class="section-padding bg-soft-blue">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 class="fw-bold">Full-Spectrum Services</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+          <div class="service-icon-grid mt-5">
+            <div class="service-icon-card fade-up stagger-1">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h5>Day Care</h5>
+            </div>
+            <div class="service-icon-card fade-up stagger-2">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-user-doctor"></i>
+              </div>
+              <h5>OPD Care</h5>
+            </div>
+            <div class="service-icon-card fade-up stagger-3">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-lungs"></i>
+              </div>
+              <h5>Spirometry</h5>
+            </div>
+            <div class="service-icon-card fade-up stagger-4">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-flask"></i>
+              </div>
+              <h5>Advanced Lab</h5>
+            </div>
+            <div class="service-icon-card fade-up stagger-1">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h5>USG / Echo</h5>
+            </div>
+            <div class="service-icon-card fade-up stagger-2">
+              <div class="icon-box-circle shadow-sm">
+                <i class="fas fa-prescription-bottle-medical"></i>
+              </div>
+              <h5>Pharmacy</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: IMAGE SHOWCASE -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="hc-image-grid row g-4">
+            <div class="col-md-6 fade-up">
+              <div class="img-wrapper rounded-30 overflow-hidden box-shadow">
+                <img
+                  src="https://supremehospitals.in/wp-content/uploads/2023/09/HealthCheckup1-scaled.jpg"
+                  alt="Health Checkup Lab"
+                  class="img-fluid hover-scale"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 fade-up stagger-2">
+              <div class="img-wrapper rounded-30 overflow-hidden box-shadow">
+                <img
+                  src="https://supremehospitals.in/wp-content/uploads/2023/09/HealthCheckup2-scaled.jpg"
+                  alt="Diagnostic Equipment"
+                  class="img-fluid hover-scale"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: WELL-BEING CTA -->
+      <section class="section-padding container">
+        <div
+          class="hc-cta-premium fade-up glass-card d-flex align-center p-5 rounded-40 box-shadow text-white overflow-hidden"
+          style="
+            background: linear-gradient(135deg, #001f3f 0%, #00458b 100%);
+            min-height: 350px;
+          "
+        >
+          <div class="cta-decoration"></div>
+          <div class="row align-center w-100 z-10">
+            <div class="col-lg-8">
+              <h5 class="text-orange fw-bold mb-3">Priority Booking</h5>
+              <h2 class="display-5 fw-bold mb-4">
+                Ensure your well-being today by scheduling an appointment with
+                us now!
+              </h2>
+              <a
+                href="book-an-appointment.html"
+                class="btn btn-white btn-lg px-5 py-3 fw-bold"
+                >Book Now <i class="fas fa-calendar-check ml-2"></i
+              ></a>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+              <img
+                src="https://supremehospitals.in/wp-content/uploads/2023/10/CANVax-Homepage-image.png"
+                alt="Happy Patient"
+                class="img-fluid float-right-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="layout.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

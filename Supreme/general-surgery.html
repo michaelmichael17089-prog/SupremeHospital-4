@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best General Surgery Hospital in Padur | Supreme Hospitals</title>
+    <meta
+      name="description"
+      content="Supreme Hospitals offers general surgery care in Padur, Thiruporur & Navalur – advanced surgical procedures by expert surgeons with high-quality outcomes."
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body class="department-page">
+    <div id="header-placeholder"></div>
+
+    <!-- Floating CTA -->
+    <button
+      class="floating-cta ripple"
+      onclick="window.location.href = 'book-an-appointment.html'"
+    >
+      <span class="pulse-ring"></span>
+      <i class="fas fa-calendar-plus"></i>
+      <span>Book an Appointment</span>
+    </button>
+
+    <!-- Appointment Modal Form -->
+    <div class="modal-overlay" id="appointment-modal">
+      <div class="modal-content">
+        <button class="close-modal" onclick="closeModal()">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Request an Appointment</h3>
+          <p>
+            Fill out the form below and our team will get back to you shortly.
+          </p>
+        </div>
+        <form class="appointment-form" onsubmit="event.preventDefault()">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" />
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="general-surgery" selected>General Surgery</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="dental">Dental</option>
+              <option value="dermatology">Dermatology</option>
+              <option value="diabetology">Diabetology</option>
+              <option value="psychiatry">Psychiatry</option>
+              <option value="ent">ENT</option>
+              <option value="gastroenterology">Medical Gastroenterology</option>
+              <option value="nephrology">Nephrology</option>
+              <option value="obstetrics-gynaecology">
+                Obstetrics & Gynaecology
+              </option>
+              <option value="orthopedics">Orthopedics</option>
+              <option value="pulmonology">Pulmonology</option>
+              <option value="ophthalmology">Ophthalmology</option>
+              <option value="pediatrics">Pediatrics</option>
+              <option value="pain-palliative-care">
+                Pain & Palliative Care
+              </option>
+              <option value="general-medicine">General Medicine</option>
+              <option value="urology">Urology</option>
+              <option value="radiology">Radiology</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="date" required />
+          </div>
+          <div class="form-group full-width">
+            <textarea placeholder="Message / Symptoms" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width btn-glow">
+            Confirm Request
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <main>
+      <!-- SECTION 1: PREMIUM HERO BANNER -->
+
+      <section
+        class="hero-premium"
+        style="
+          background-image: url('https://supremehospitals.in/wp-content/uploads/2023/10/gen-surgery-banner.jpg');
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="container">
+          <div class="fade-up">
+            <div class="breadcrumb">
+              <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i>
+              <span>Department</span> <i class="fas fa-chevron-right"></i>
+              <span class="current">General Surgery</span>
+            </div>
+            <h5 class="subtitle text-orange mb-3">Supreme Excellence</h5>
+            <h1>Department of General Surgery</h1>
+            <p class="hero-subtitle">
+              Advanced surgical care with clinical excellence. Expert procedures
+              for abdominal health, trauma, and comprehensive wellness.
+            </p>
+            <div class="hero-btns mt-5 stagger-1">
+              <a
+                href="book-an-appointment.html"
+                class="btn btn-primary btn-lg btn-glow px-5"
+                >Book Appointment</a
+              >
+              <a
+                href="contact-us.html"
+                class="btn btn-outline-white btn-lg px-5 ml-md-3"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: OVERVIEW -->
+      <section class="partner-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center flex-wrap">
+            <div class="col-md-6 fade-up">
+              <h5 class="subtitle text-accent">Surgical Excellence</h5>
+              <h2>Overview</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                The General Surgery Department at Supreme Hospital has highly
+                qualified and experienced general surgeons who focus on a
+                comprehensive range of abdominal procedures, including those
+                related to the throat, stomach, small bowel, colon, liver,
+                pancreas, gallbladder, appendix, and bile ducts.
+              </p>
+              <p class="text-muted leading-relaxed mb-5">
+                Our seasoned practitioners also address skin conditions, breast
+                health, trauma, peripheral vascular surgery, and hernias, along
+                with performing endoscopic techniques like gastroscopy and
+                colonoscopy. Patient well-being is our utmost priority,
+                supported by transparent communication and tailored
+                post-operative support.
+              </p>
+              <div class="feature-tags">
+                <span class="tag"
+                  ><i class="fas fa-check-double mr-2"></i> Comprehensive
+                  Abdominal Surgery</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-user-shield mr-2"></i> Trauma & Vascular
+                  Care</span
+                >
+                <span class="tag"
+                  ><i class="fas fa-stethoscope mr-2"></i> Minimally Invasive
+                  Focus</span
+                >
+              </div>
+            </div>
+            <div class="col-md-6 fade-up stagger-1 mt-sm-5 text-center">
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-mask-ventilator fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">
+                  Advanced Surgical Unit Visual Placeholder
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: WIDE RANGE OF SURGERIES (AUTO SCROLL) -->
+      <section class="treatments-scroll-section section-padding bg-soft-blue">
+        <div class="container-fluid p-0">
+          <div class="section-title text-center mb-5 fade-up">
+            <h5 class="subtitle text-accent">Procedures</h5>
+            <h2>Our Wide Range of Surgeries</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="scroller-container mt-5">
+            <div class="scroller-inner">
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Minimally Invasive</h3>
+                  <p class="text-sm text-muted">
+                    Utilizing small incisions for quicker recuperation,
+                    diminished discomfort, and minimal scarring.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Appendectomies</h3>
+                  <p class="text-sm text-muted">
+                    Routine yet vital procedures performed with precision to
+                    ensure optimal health outcomes.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Hernia Repair</h3>
+                  <p class="text-sm text-muted">
+                    Pioneering state-of-the-art methodology for longevity and
+                    reduced recurrence likelihood.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Gallbladder Removal</h3>
+                  <p class="text-sm text-muted">
+                    Expert laparoscopic gallbladder removal addressing concerns
+                    with precision and minimal disruption.
+                  </p>
+                </div>
+              </div>
+              <div class="treatment-vibe-card">
+                <div class="treatment-vibe-content">
+                  <h3>Trauma Surgery</h3>
+                  <p class="text-sm text-muted">
+                    Expert handling of surgical emergencies and traumatic
+                    injuries with seasoned experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: TRANSPLANT CARE (UNIQUE SOURCE SECTION) -->
+      <section class="transplant-section section-padding bg-white">
+        <div class="container">
+          <div class="row align-center">
+            <div class="col-md-6 order-md-2 fade-up">
+              <h5 class="subtitle text-accent">Advanced Life Care</h5>
+              <h2>Kidney Transplantation & Care</h2>
+              <div class="title-line mb-4"></div>
+              <p class="text-muted leading-relaxed mb-4">
+                We specialize in the evaluation and selection of suitable kidney
+                donors and recipients, including compatibility testing and
+                workups.
+              </p>
+              <ul class="check-list-modern mb-4">
+                <li>
+                  <i class="fas fa-circle-check text-accent mr-2"></i> Living
+                  and Deceased donor procedures
+                </li>
+                <li>
+                  <i class="fas fa-circle-check text-accent mr-2"></i> Minimally
+                  invasive laparoscopic donor nephrectomy
+                </li>
+                <li>
+                  <i class="fas fa-circle-check text-accent mr-2"></i>
+                  Robotic-assisted and advanced surgical techniques
+                </li>
+                <li>
+                  <i class="fas fa-circle-check text-accent mr-2"></i>
+                  Post-transplant monitoring and follow-up care
+                </li>
+              </ul>
+              <div class="highlight-box bg-soft p-4 border-left-accent">
+                <p class="text-sm mb-0 italic font-600">
+                  "Opt for expertise, innovation, and a commitment to your
+                  well-being with Supreme Surgical Care."
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 order-md-1 fade-up stagger-1 mt-sm-5 text-center"
+            >
+              <div class="dept-img-placeholder box-shadow">
+                <i class="fas fa-hospital-user fa-10x opacity-10"></i>
+                <p class="mt-3 text-muted">Transplant Surgical Care Visuals</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: WHY CHOOSE US (CENTERED + UNIQUE ANIMS) -->
+      <section
+        class="why-choose-section section-padding bg-dark-blue text-white centered-section"
+        style="background: #061225"
+      >
+        <div class="container">
+          <div class="fade-up">
+            <h5 class="subtitle text-accent">The Supreme Standard</h5>
+            <h2 class="light-title">Why Choose Supreme General Surgery?</h2>
+            <div class="title-line mb-5"></div>
+          </div>
+
+          <div class="benefit-grid-premium">
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="fade-up-elite"
+            >
+              <i class="fas fa-user-doctor"></i>
+              <h4>Accomplished Surgeons</h4>
+              <p class="opacity-75">
+                Board-certified surgical team at the forefront of the latest
+                techniques for innovative care.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="slide-right-elite"
+            >
+              <i class="fas fa-handshake-angle"></i>
+              <h4>Patient-Centric Approach</h4>
+              <p class="opacity-75">
+                Transparent communication and exhaustive consultations to guide
+                your recuperative journey.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="scale-in-elite"
+            >
+              <i class="fas fa-kit-medical"></i>
+              <h4>State-of-the-Art Tech</h4>
+              <p class="opacity-75">
+                Employing robotic systems and advanced methodologies for
+                longevity and precision.
+              </p>
+            </div>
+            <div
+              class="benefit-card-elite anim-reveal-border"
+              data-aos="rotate-in-elite"
+            >
+              <i class="fas fa-shield-heart"></i>
+              <h4>Optimal High-Quality Outcomes</h4>
+              <p class="opacity-75">
+                Commitment to efficacy and well-being through professional
+                clinical surgical excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CONSULTANTS -->
+      <section class="consultants-section section-padding bg-soft">
+        <div class="container">
+          <div class="section-title text-center fade-up font-500">
+            <h5 class="subtitle text-accent">Surgical Experts</h5>
+            <h2>Our General Surgeons</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="consultant-grid mt-5">
+            <div class="consultant-card fade-up">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. Felix Anand Raj</h3>
+              <p class="text-accent font-500">Expert General Surgeon</p>
+              <p class="text-sm text-muted mb-4">
+                Dedicated to high-precision abdominal and minimally invasive
+                surgery.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+            <div class="consultant-card fade-up stagger-1">
+              <div class="consultant-avatar shadow-sm">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <h3>Dr. S. Mathan Sankar</h3>
+              <p class="text-accent font-500">Expert General Surgeon</p>
+              <p class="text-sm text-muted mb-4">
+                Specialized in trauma care and state-of-the-art hernia repair
+                methods.
+              </p>
+              <button
+                class="btn btn-primary btn-sm btn-glow"
+                onclick="window.location.href = 'book-an-appointment.html'"
+              >
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: FAQ -->
+      <section class="dept-faq-section section-padding bg-white">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h5 class="subtitle text-accent">Clinical Guidance</h5>
+            <h2>Frequently Asked Questions</h2>
+            <div class="title-line mx-auto"></div>
+          </div>
+          <div class="faq-accordion mt-5 max-w-800 mx-auto">
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What is general surgery? <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  General surgery is a surgical specialty that focuses on
+                  abdominal contents including esophagus, stomach, small bowel,
+                  colon, liver, pancreas, gallbladder, and bile ducts.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What are the risks and benefits of undergoing surgery?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Benefits include treatment for acute conditions and improved
+                  quality of life. Risks are handled through thorough
+                  preoperative evaluations and high-end monitoring by our expert
+                  surgeons.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                Are there alternatives to surgery?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  In many cases, non-surgical management or minimally invasive
+                  options are explored before considering major traditional
+                  surgery.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item fade-up">
+              <button class="accordion-header">
+                What should I bring to my pre-surgical consultation?
+                <i class="fas fa-plus icon"></i>
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Bring your medical history, current medication list, and any
+                  previous diagnostic reports or imaging to ensure a thorough
+                  clinical evaluation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="layout.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
